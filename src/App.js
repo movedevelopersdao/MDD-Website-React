@@ -1,29 +1,37 @@
+import React from "react";
+import Main from "./components/Main";
+import Card from "./components/Card";
+import Section from "./components/Section";
+import Community from "./components/Community";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+
 import './App.css';
-import Home from './screens/Home';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-import Login from './screens/Login';
-import "../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
-import Signup from './screens/Signup';
 
-
-function App() {
+const App = () => {
   return (
-    <Router>
-      <div>
-        <Routes>
-          <Route exact path="/" element={<Home />}/>
-          <Route exact path="/login" element={<Login />}/>
-          <Route exact path="/creatuser" element={<Signup />}/>
-        </Routes>
-      </div>
-    </Router>
+    <div className="bg">
+      {/* <div id="drop-down" className="drop-down">
+        <a
+          // style="text-align: center;"
+          href="https://move-developers-dao.gitbook.io/aptos-move-by-example/"
+          className="link"
+        >
+          Events Board
+        </a>
+        <a href="#" className="link">
+          RFP Board
+        </a>
+      </div> */}
+      <Navbar />
+      <Main />
+      <Card />
+      <Section />
+      <Community />
+      <Footer />
+
+    </div>
   );
-}
+};
 
 export default App;
