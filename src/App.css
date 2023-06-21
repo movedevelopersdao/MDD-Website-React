@@ -979,11 +979,11 @@ cursor: pointer;
       transition: 0.5s;
       opacity: 0;
       overflow: hidden;
-  } */
+  }
 
   .links{
     display: none;
-  }
+  } */
 
   .active{
       height: 400px;
