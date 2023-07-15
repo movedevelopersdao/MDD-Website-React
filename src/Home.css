@@ -835,9 +835,9 @@ margin-right: 0;
 width: 55px;
 height: 65px;
 }
-.tut-display-card{
+/* .tut-display-card{
     padding-bottom: 75px;
-}
+} */
 
 
 
@@ -854,9 +854,9 @@ margin-left: 0;
 font-size: 12px;
 }
 
-.tut-display-card{
+/* .tut-display-card{
     padding-bottom: 170px;
-}
+} */
 
 .sec-desc-head-text{
 line-height: 40px;
@@ -1021,7 +1021,7 @@ line-height: 10px;
 }
 .tut-display-card{
 height: 160px;
-padding-bottom: 300px;
+/* padding-bottom: 300px; */
 }
 }
 
