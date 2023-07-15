@@ -165,6 +165,7 @@ a:visited {
   padding: 10px 0px;
   display: flex;
   justify-content: space-around;
+  margin-top: 65px;
 }
 
 .btns{
@@ -265,7 +266,7 @@ button:hover{
   padding: 10px 10px;
 }
 
-.card-img {
+.card-imgs {
   width: 145px;
   height: 155px;
   display: block;
@@ -655,6 +656,11 @@ background: linear-gradient(180deg, #5957D2 0%, rgba(255, 174, 223, 0.866406) 82
 
 .college-communities-head {
   text-align: center;
+  margin: 50px 0px;
+}
+
+.college-communities {
+  margin: 120px 0px;
 }
 
 .colleges {
@@ -858,12 +864,13 @@ cursor: pointer;
       flex-direction: column;
       /* justify-content: center; */
       overflow: hidden;
-      overflow-y: auto;
+      overflow-y: auto;                           
       height: 800px;
       align-items: center;
   }
   .links{
     display: none;
+    
   }
   
   .event-card{
@@ -892,7 +899,7 @@ cursor: pointer;
   .communitiess{
       display: flex;
       flex-direction: column;
-      
+      margin-top: -30px;
       align-items: center;
   }
 
@@ -1649,7 +1656,11 @@ margin-right: 20px;
   /* #partners-img{
       width: 450px;
       height: 450px;
+      
   } */
+  #partners-img{
+      margin-top: 40px;
+  }
   .companies{
       width: 500px;
   }
@@ -1694,6 +1705,7 @@ margin-right: 20px;
       width: 360px;
       height: 360px;
       overflow: hidden;
+      margin-top: 40px;
   }
   .c-box-1{
       bottom: 20px;
@@ -1778,6 +1790,7 @@ margin-right: 20px;
       width: 300px;
       height: 300px;
       overflow: hidden;
+      margin-top: 40px;
   }
 
   .companies{
@@ -1816,6 +1829,7 @@ margin-right: 20px;
       width: 250px;
       height: 250px;
       overflow: hidden;
+      margin-top: 40px;
   }
   .companies{
       width: 250px;
@@ -1866,6 +1880,7 @@ margin-right: 20px;
       width: 200px;
       height: 200px;
       overflow: hidden;
+      margin-top: 40px;
   }
   .c-box-1{
       top: 60px;
