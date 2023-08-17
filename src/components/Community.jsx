@@ -7,14 +7,38 @@ const Community = () => {
         <div className="college-communities-head">
           <h1 className="event-para">COLLEGE COMMUNITIES</h1>
         </div>
-        <div className="colleges">
-          <div className="college">
+        <div className="communities">
+          <div className="community">
             <img
               className="college-img"
               src="reva-logo.png"
               alt=""
             />
-            <h1 className="college-name">REVA</h1>
+            {/* <h1 className="college-name">REVA</h1> */}
+          </div>
+          <div className="community">
+            <img
+              className="college-img"
+              src="CollegeDAO.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="communitiess-add">
+          <div className="community">
+            <img
+              className="college-img"
+              src="KIK.png"
+              alt=""
+            />
+            {/* <h1 className="college-name">REVA</h1> */}
+          </div>
+          <div className="community">
+            <img
+              className="college-img"
+              src="TPH SRMIST.png"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -143,6 +167,28 @@ const Community = () => {
             />
             </a>
           </div>
+        </div>
+        {/* / */}
+        <div className="communities_add">
+          <div className="community">
+            <a href="https://www.web3learn.io/">
+            <img
+              className="college-img"
+              src="web3learn1.png"
+              alt="Web3Learn"
+            />
+            </a>
+          </div>
+          <div className="community">
+            <a href="https://www.indexer.xyz/">
+            <img
+              className="college-img"
+              src="index_yz.png"
+              alt="Indexer"
+            />
+            </a>
+          </div>
+        </div>
 
           {/* <div className="community">
             <img
@@ -166,7 +212,6 @@ const Community = () => {
               alt="FUN MOVE DAO"
             />
           </div> */}
-        </div>
       </section>
 
       <section className="partners">

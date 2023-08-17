@@ -696,6 +696,15 @@ background: linear-gradient(180deg, #5957D2 0%, rgba(255, 174, 223, 0.866406) 82
   margin-left: 20px;
   margin-right: 20px;
 }
+.communities_add{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+
+}
 .communitiess{
   display: flex;
   justify-content: space-around;
@@ -895,6 +904,20 @@ cursor: pointer;
       flex-direction: column;
       
       align-items: center;
+  }
+  .communities_add{
+      display: flex;
+      flex-direction: column;
+      
+      align-items: center;
+      margin-top: -5px;
+  }
+  .communitiess-add{
+      display: flex;
+      flex-direction: column;
+      
+      align-items: center;
+      /* margin-top: -5px; */
   }
   .communitiess{
       display: flex;
