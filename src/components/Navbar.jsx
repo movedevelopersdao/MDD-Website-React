@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className= {showMediaIcons?"links-mobile": "links"}>
         {/* <div className= "links-mobile"> */}
           <div className="link-box">
-            <Link to="/home" className="link">Developer Hub</Link>
+            <Link to="/developer_hub" className="link">Developer Hub</Link>
           </div>
           <div className="link-box">
             <a

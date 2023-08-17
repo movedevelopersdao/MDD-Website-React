@@ -20,7 +20,7 @@ const Home = () => {
         <BrowserRouter>
             <Routes>
             <Route path="/" element={<App/>}/>
-            <Route path="/home" element={<Developer_hub/>}/>
+            <Route path="/developer_hub" element={<Developer_hub/>}/>
             <Route path="/docs" element={<Docs/>}/>
             <Route path="/learn" element={<Learn/>}/>
             <Route path="/tutorials" element={<Tutorials/>}/>
