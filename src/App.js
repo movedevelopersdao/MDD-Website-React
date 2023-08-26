@@ -5,6 +5,7 @@ import Section from "./components/Section";
 import Community from "./components/Community";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import {Helmet} from "react-helmet";
 
 import './App.css';
 
@@ -23,6 +24,12 @@ const App = () => {
           RFP Board
         </a>
       </div> */}
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>MoveDevelopersDAO</title>
+                <link id="favicon" rel="icon" type="logo-min 3"/>
+
+            </Helmet>
       <Navbar />
       <Main />
       <Card />
