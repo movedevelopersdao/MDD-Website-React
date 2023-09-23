@@ -27,7 +27,7 @@ const Nav = () => {
           {/* <a href="/home" className="nav-link" id="home">
             Home
           </a> */}
-          <Link to="/home" className="nav-link">Home</Link>
+          <Link to="/developer_hub" className="nav-link">Home</Link>
           <Link to="/docs" className="nav-link">Docs</Link>
           <Link to="/tutorials" className="nav-link">Tutorials</Link>
           <Link to="/learn" className="nav-link">Learn By Code</Link>
